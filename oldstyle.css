@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.der2 {
+    height: 85vh;
+    width: 100vw;
+    background-color: lightseagreen;
+    color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+    overflow: hidden;
+
+}
+
+.der3 {
+    height: 50px;
+    background-color: rgb(55, 125, 121);
+    transform: skew(-40deg);
+    width: 25vw;
+    float: right;
+    margin-top: -72vh;
+    margin-right: -20px;
+    color: white;
+}
+
+.white {
+    margin-top: 10px;
+}
+
+header {
+    overflow: hidden;
+
+}
+
+.hi {
+    color: black;
+    padding-left: 10px;
+}
+
+.der3 h5,
+.der3 h3 {
+    transform: skew(+40deg);
+    font-size: 10px;
+    padding-left: 20px;
+}
+
+.navbar {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 300px;
+    padding: 20px;
+}
+
+nav {
+    overflow: hidden;
+}
+
+.navbar5 ul {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    gap: 20px;
+
+}
+
+.icons i {
+    padding-right: 5px;
+}
+
+.navbar5 ul li a {
+    text-decoration: none;
+    color: #c0c0c0;
+}
+
+.navbar5 ul li:hover a {
+    color: black;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 15px;
+}
+
+.headnav {
+    text-align: center;
+    overflow: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.line::after {
+    content: "";
+    width: 90vw;
+    height: 1px;
+    background: #c0c0c0;
+    display: block;
+    border-bottom: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin: auto;
+}
+
+.line-p::after {
+    content: "";
+    width: 200px;
+    height: 1px;
+    background: white;
+    display: block;
+    border-bottom: 12px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.diff-div {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.darkgreen {
+    background-color: lightseagreen;
+    width: 25%;
+    height: 200px;
+}
+
+.lightgreen {
+    background-color: #62c5b2;
+    width: 25%;
+    height: 200px;
+}
+
+.icon {
+    display: flex;
+    width: 100vw;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    overflow: hidden;
+}
+
+.color {
+    width: 33%;
+}
+
+.coffee {
+    width: 33%;
+}
+
+.magic {
+    width: 33%;
+}
+
+.main {
+    overflow: hidden;
+}
+
+.graybox {
+    width: 100vw;
+    background-color: #f0f0f0;
+    padding: 40px 10px 40px 100px;
+    display: flex;
+}
+
+.child {
+    color: black;
+}
+
+.coffee2 {
+    width: 25%;
+    color: lightseagreen;
+}
+
+.face {
+    width: 25%;
+    color: lightseagreen;
+}
+
+.bbq {
+    width: 25%;
+    color: lightseagreen;
+}
+
+.glass {
+    width: 25%;
+    color: lightseagreen;
+}
+
+.head {
+    gap: 50px;
+    text-align: center;
+    padding-top: 40px;
+    ;
+    padding-bottom: 35px;
+}
+
+.passion {
+    text-align: center;
+    padding-bottom: 40px;
+    color: #979797;
+}
+
+.greenbox {
+    background-color: lightseagreen;
+    width: 100vw;
+    color: white;
+    height: 200px;
+    margin-bottom: 52px;
+    padding: 0 10px 50px 10px;
+    text-align: center;
+}
+
+
+.lorem::after {
+    content: "";
+    width: 200px;
+    height: 1px;
+    background: white;
+    display: block;
+    border-bottom: 12px;
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+.lorem {}
+
+.double-quotes-img1 {
+    position: relative;
+    left: -310px;
+    top: 10px;
+}
+
+.double-quotes-img2 {
+    position: relative;
+    left: 270px;
+    top: -30px;
+}
+
+.doe {
+    margin-top: -30px;
+}
+
+.divs {
+    display: flex;
+    flex-wrap: wrap;
+    width:100vw;
+    padding-left: 50px;
+}
+
+.laptop {
+  width: 33.33%;
+  font-size: 14px;
+  
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.pen-hold { 
+   width: 33.33%; 
+   font-size: 14px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.mobile {  
+    font-size: 15px;
+    width: 33.33%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.screen {    
+    font-size: 15px;
+      width: 33.33%;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+      padding-bottom: 40px;
+      margin-top:20px;
+}
+.screens{
+    font-size: 15px;    
+    width: 33.33% ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding-bottom: 40px;
+    margin-top:20px;
+}
+.file{
+    width: 33.33%;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding-bottom: 40px;
+    margin-top:20px;
+}
+.p{
+    margin-left: 75px;
+    margin-top: -49px;
+    color:#9e9e9e;
+}
+.black{
+    color: black;
+    font-weight: bold;
+}
+.green{
+    font-weight: bold;
+    color:#39a38f;
+}
+.foot{
+    width: 100%;
+    background-color: #d8d8d8;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 135px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
